@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 420ad7df68c6421fafe40ec9b4cd8cfe, type: 3}
+  m_Name: Vechicle Test
+  m_EditorClassIdentifier: Assembly-CSharp::Scriptable_Objects.VehicleData
+  speed: 10
+  stunDurationWhenHit: 3
+  frontSprites:
+  - {fileID: -2979136949292948317, guid: 8ea2f1efcff464935bec6c4f5134a937, type: 3}
+  - {fileID: 9089695645353676025, guid: a8f93c4246e5c4b8e8221a04071498d1, type: 3}
+  - {fileID: 858548267746509626, guid: a233526cd47d34747ab5a4a216d667e4, type: 3}
+  backSprites:
+  - {fileID: 4273724031106649725, guid: 199ad613cd41847dcb61a156c11f225e, type: 3}
+  - {fileID: 1522633501064316446, guid: 43c0de3faaced49c08bdd1c92aaa7dac, type: 3}
+  - {fileID: 944204929983791209, guid: 0f59847ffcc1b40cb8a672c737faf2b4, type: 3}
+  engineSounds: {fileID: 8300000, guid: b13557aa4a262408a9c70317052a93ac, type: 3}
